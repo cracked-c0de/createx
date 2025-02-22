@@ -1,13 +1,19 @@
 import { Link } from "react-router-dom"
+import Img1 from "/src/assets/home/speaker1.png"
+import Img2 from "/src/assets/home/speaker2.png"
+import Img3 from "/src/assets/home/speaker3.png"
+import Img4 from "/src/assets/home/speaker4.png"
+import Img5 from "/src/assets/home/speaker5.png"
+import Img6 from "/src/assets/home/speaker6.png"
 
 function Courses() {
     let courses = [
-        {category: "Marketing", name: "The Ultimate Google Ads Training Course", price: 100, by: "Jerome Bell", img: "/src/assets/home/speaker1.png", color: "#03CEA4"},
-        {category: "Management", name: "Product Management Fundamentals", price: 480, by: "Marvin McKinney", img: "/src/assets/home/speaker2.png", color: "#5A87FC"},
-        {category: "HR & Recruiting", name: "HR  Management and Analytics", price: 200, by: "Leslie Alexander Li", img: "/src/assets/home/speaker3.png", color: "#F89828"},
-        {category: "Marketing", name: "Brand Management & PR Communications", price: 530, by: "Kristin Watson", img: "/src/assets/home/speaker4.png", color: "#03CEA4"},
-        {category: "Management", name: "Business Development Management", price: 400, by: "Dianne Russell", img: "/src/assets/home/speaker5.png", color: "#5A87FC"},
-        {category: "Design", name: "Graphic Design Basic", price: 500, by: "Guy Hawkins", img: "/src/assets/home/speaker6.png", color: "#F52F6E"},
+        {category: "Marketing", name: "The Ultimate Google Ads Training Course", price: 100, by: "Jerome Bell", img: Img1, color: "#03CEA4"},
+        {category: "Management", name: "Product Management Fundamentals", price: 480, by: "Marvin McKinney", img: Img2, color: "#5A87FC"},
+        {category: "HR & Recruiting", name: "HR  Management and Analytics", price: 200, by: "Leslie Alexander Li", img: Img3, color: "#F89828"},
+        {category: "Marketing", name: "Brand Management & PR Communications", price: 530, by: "Kristin Watson", img: Img4, color: "#03CEA4"},
+        {category: "Management", name: "Business Development Management", price: 400, by: "Dianne Russell", img: Img5, color: "#5A87FC"},
+        {category: "Design", name: "Graphic Design Basic", price: 500, by: "Guy Hawkins", img: Img6, color: "#F52F6E"},
     ]
     return(
         <section>

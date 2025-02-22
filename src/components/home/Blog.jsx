@@ -1,13 +1,13 @@
-import { BiArrowToRight, BiCalendar, BiRightArrow } from "react-icons/bi"
 import { BsArrowRight, BsClock } from "react-icons/bs"
-import { CgLock } from "react-icons/cg"
-
+import Img1 from "/src/assets/home/blog1.png"
+import Img2 from "/src/assets/home/blog2.png"
+import Img3 from "/src/assets/home/blog3.png"
 
 function Blog() {
     let latest = [
-        {img: "/src/assets/home/blog1.png", type: "Podcast", category: "Marketing", date: "September 4, 2020", duration: "36 min", header: "What is traffic arbitrage and does it really make money?", part: "Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...", btn: "Listen", link: ""},
-        {img: "/src/assets/home/blog2.png", type: "Video", category: "Management", date: "August 25, 2020", duration: "45 min", header: "What to do and who to talk to if you want to get feedback on the product", part: "Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...", btn: "Watch", link: ""},
-        {img: "/src/assets/home/blog3.png", type: "Article",category: "Design", date: "August 8, 2020", header: "Should you choose a creative profession if you are attracted to creativity?", part: "Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...", btn: "Read", link: ""},
+        {img: Img1, type: "Podcast", category: "Marketing", date: "September 4, 2020", duration: "36 min", header: "What is traffic arbitrage and does it really make money?", part: "Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...", btn: "Listen", link: ""},
+        {img: Img2, type: "Video", category: "Management", date: "August 25, 2020", duration: "45 min", header: "What to do and who to talk to if you want to get feedback on the product", part: "Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...", btn: "Watch", link: ""},
+        {img: Img3, type: "Article",category: "Design", date: "August 8, 2020", header: "Should you choose a creative profession if you are attracted to creativity?", part: "Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...", btn: "Read", link: ""},
     ]
     return(
         <section>

@@ -1,15 +1,20 @@
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs"
 import Testimonial from "./Testimonial"
 import { useState } from "react"
+import Img1 from "/src/assets/home/speaker5.png"
+import Img2 from "/src/assets/home/speaker1.png"
+import Img3 from "/src/assets/home/speaker4.png"
+import Img4 from "/src/assets/home/speaker2.png"
+import Img5 from "/src/assets/home/speaker3.png"
 
 
 function Team() {
     let team = [
-        {name: "Dianne Russell", position: "Founder and CEO", img: "/src/assets/home/speaker5.png"},
-        {name: "Jerome Bell", position: "Founder and Program Director", img: "/src/assets/home/speaker1.png"},
-        {name: "Kristin Watson", position: "Marketer, Curator of Marketing Course", img: "/src/assets/home/speaker4.png"},
-        {name: "Marvin McKinney", position: "PM, Curator of Management Course", img: "/src/assets/home/speaker2.png"},
-        {name: "Leslie Alexander Li", position: "HR & Recruiter", img: "/src/assets/home/speaker3.png"}
+        {name: "Dianne Russell", position: "Founder and CEO", img: Img1},
+        {name: "Jerome Bell", position: "Founder and Program Director", img: Img2},
+        {name: "Kristin Watson", position: "Marketer, Curator of Marketing Course", img: Img3},
+        {name: "Marvin McKinney", position: "PM, Curator of Management Course", img: Img4},
+        {name: "Leslie Alexander Li", position: "HR & Recruiter", img: Img5}
     ]
     const [startIndex, setStartIndex] = useState(0);
     const visibleMembers = [

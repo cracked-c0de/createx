@@ -1,6 +1,4 @@
 import { useState } from "react"
-import { BiChat, BiLayer, BiLike } from "react-icons/bi"
-import { SlStar } from "react-icons/sl"
 import Exp from "./benefits/Exp"
 
 

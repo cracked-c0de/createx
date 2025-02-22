@@ -1,11 +1,12 @@
 import Bg2 from "/src/assets/home/background2.png"
+import Img1 from "/src/assets/home/image.png"
 
 function About() {
     return(
         <section style={{backgroundImage: `url(${Bg2})`}} className="bg-no-repeat">
             <div className="custom-container">
                 <div className="h-screen flex items-center gap-25">
-                    <img src="/src/assets/home/image.png" alt="" className="rounded" />
+                    <img src={Img1} alt="" className="rounded" />
                     <div className="flex flex-col">
                         <div className="my-10">
                             <h6 className="uppercase text-[16px] font-[700]">Who are we</h6>

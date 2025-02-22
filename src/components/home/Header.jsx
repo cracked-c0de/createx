@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import Img1 from "/src/assets/home/small.png"
+import Img2 from "/src/assets/home/illustration.svg"
 
 function Header() {
     return(
@@ -21,7 +22,7 @@ function Header() {
                         <Link to="/courses"><button className="cursor-pointer hover:bg-gradient-to-tl transition-all delay-75 bg-gradient-to-br from-[#FF3F3A] to-[#F75E05] rounded py-3 px-10 text-[16px] text-white font-[700]">Explore courses</button></Link>
                     </div>
                 </div>
-                <img src="./src/assets/home/illustration.svg" alt="" className="absolute right-0 -top-5"/>
+                <img src={Img2} alt="" className="absolute right-0 -top-5"/>
             </div>
         </header>
     )

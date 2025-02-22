@@ -1,20 +1,29 @@
 import { useEffect, useState } from "react"
 import { BiSearch } from "react-icons/bi"
+import Img1 from "/src/assets/courses/speaker1.png"
+import Img2 from "/src/assets/courses/speaker2.png"
+import Img3 from "/src/assets/courses/speaker3.png"
+import Img4 from "/src/assets/courses/speaker4.png"
+import Img5 from "/src/assets/courses/speaker5.png"
+import Img6 from "/src/assets/courses/speaker6.png"
+import Img7 from "/src/assets/courses/speaker7.png"
+import Img8 from "/src/assets/courses/speaker8.png"
+import Img9 from "/src/assets/courses/speaker9.png"
 
 
 function Main() {
     let [query, setQuery] = useState("")
     let [active, updActive] = useState(0)
     let courses = [
-        {img: "/src/assets/courses/speaker1.png", category: "Marketing", header: "The Ultimate Google Ads Training Course", price: 100, author: "Jerome Bell"},
-        {img: "/src/assets/courses/speaker2.png", category: "Management", header: "Product Management Fundamentals", price: 480, author: "Marvin McKinney"},
-        {img: "/src/assets/courses/speaker3.png", category: "HR & Recruiting", header: "HR Management and Analytics", price: 200, author: "Leslie Alexander Li"},
-        {img: "/src/assets/courses/speaker4.png", category: "Marketing", header: "Brand Management & PR Communications", price: 530, author: "Kristin Watson"},
-        {img: "/src/assets/courses/speaker5.png", category: "Design", header: "Graphic Design Basic", price: 500, author: "Guy Hawkins"},
-        {img: "/src/assets/courses/speaker6.png", category: "Management", header: "Business Development Management", price: 400, author: "Dianne Russell"},
-        {img: "/src/assets/courses/speaker7.png", category: "Development", header: "Highroad Software Architecture", price: 600, author: "Brooklyn Simmons"},
-        {img: "/src/assets/courses/speaker8.png", category: "HR & Recruiting", header: "Human Resources - Selection and Recruitment", price: 150, author: "Kathryn Murphy"},
-        {img: "/src/assets/courses/speaker9.png", category: "Design", header: "User Experience. Human-centered Design", price: 240, author: "Cody Fisher"},
+        {img: Img1, category: "Marketing", header: "The Ultimate Google Ads Training Course", price: 100, author: "Jerome Bell"},
+        {img: Img2, category: "Management", header: "Product Management Fundamentals", price: 480, author: "Marvin McKinney"},
+        {img: Img3, category: "HR & Recruiting", header: "HR Management and Analytics", price: 200, author: "Leslie Alexander Li"},
+        {img: Img4, category: "Marketing", header: "Brand Management & PR Communications", price: 530, author: "Kristin Watson"},
+        {img: Img5, category: "Design", header: "Graphic Design Basic", price: 500, author: "Guy Hawkins"},
+        {img: Img6, category: "Management", header: "Business Development Management", price: 400, author: "Dianne Russell"},
+        {img: Img7, category: "Development", header: "Highroad Software Architecture", price: 600, author: "Brooklyn Simmons"},
+        {img: Img8, category: "HR & Recruiting", header: "Human Resources - Selection and Recruitment", price: 150, author: "Kathryn Murphy"},
+        {img: Img9, category: "Design", header: "User Experience. Human-centered Design", price: 240, author: "Cody Fisher"},
     ]
     let [shown, updShown] = useState(courses)
 

@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa"
 import { MdMail } from "react-icons/md"
 import { PiPhone } from "react-icons/pi"
 import { Link } from "react-router-dom"
+import Logo from "/src/assets/logo2.svg"
 
 
 function Footer() {
@@ -13,7 +14,7 @@ function Footer() {
                 <div className="custom-container">
                     <div className="flex flex-row items-baseline justify-between">
                         <div className="flex-col flex text-white w-[280px]">
-                            <img src="/src/assets/logo2.svg" alt="" className="w-[130px]"/>
+                            <img src={Logo} alt="" className="w-[130px]"/>
                             <p className="text-[14px] mt-5 text-white/60">Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country. </p>
                             <div className="grid grid-cols-6 text-[27px] gap-3 mt-5">
                                 <FaFacebook className="hover:text-white text-white/60 cursor-pointer"/>

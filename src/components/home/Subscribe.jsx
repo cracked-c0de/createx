@@ -1,12 +1,12 @@
-
+import Img1 from "/src/assets/home/subsillustration.png"
 
 function Subscribe() {
     return(
         <section>
             <div style={{backgroundImage: "url('/src/assets/home/subscribe.png')"}} className="bg-center min-h-[564px] h-full relative">
                 <div>
-                    <img src="/src/assets/home/subsillustration.png" alt="" className="absolute left-0 bottom-0"/>
-                    <img src="/src/assets/home/subsillustration.png" alt="" className="absolute right-0 bottom-0"/>
+                    <img src={Img1} alt="" className="absolute left-0 bottom-0"/>
+                    <img src={Img1} alt="" className="absolute right-0 bottom-0"/>
                 </div>
                 <div className="custom-container">
                     <div className="flex flex-col items-center justify-center text-[#1E212C]">

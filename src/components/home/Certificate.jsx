@@ -1,4 +1,7 @@
-
+import Img1 from "/src/assets/home/sponsor-1.png"
+import Img2 from "/src/assets/home/sponsor-2.png"
+import Img3 from "/src/assets/home/sponsor-3.png"
+import Img4 from "/src/assets/home/certificate.png"
 
 function Certificate() {
     return(
@@ -13,13 +16,13 @@ function Certificate() {
                         <div className="flex-col my-15">
                             <p className="w-[390px] text-[16px] font-[400] text-[#424551]">We are accredited by international professional organizations and institutes:</p>
                             <div className="flex my-10 gap-10">
-                                <img src="/src/assets/home/sponsor-1.png" alt="" />
-                                <img src="/src/assets/home/sponsor-2.png" alt="" />
-                                <img src="/src/assets/home/sponsor-3.png" alt="" />
+                                <img src={Img1} alt="" />
+                                <img src={Img2} alt="" />
+                                <img src={Img3} alt="" />
                             </div>
                         </div>
                     </div>
-                    <img src="/src/assets/home/certificate.png" alt="" className="w-[705px] rounded h-[500px]" />
+                    <img src={Img4} alt="" className="w-[705px] rounded h-[500px]" />
                 </div>
             </div>
         </section>
