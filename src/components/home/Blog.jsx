@@ -1,4 +1,5 @@
 import { BsArrowRight, BsClock } from "react-icons/bs"
+import { BiCalendar } from "react-icons/bi"
 import Img1 from "/src/assets/home/blog1.png"
 import Img2 from "/src/assets/home/blog2.png"
 import Img3 from "/src/assets/home/blog3.png"
