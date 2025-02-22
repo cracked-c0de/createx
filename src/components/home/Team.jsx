@@ -6,6 +6,7 @@ import Img2 from "/src/assets/home/speaker1.png"
 import Img3 from "/src/assets/home/speaker4.png"
 import Img4 from "/src/assets/home/speaker2.png"
 import Img5 from "/src/assets/home/speaker3.png"
+import Bg from "/src/assets/home/background4.png"
 
 
 function Team() {
@@ -31,7 +32,7 @@ function Team() {
     };
     return(
         <section>
-            <div style={{backgroundImage: "url('/src/assets/home/background4.png')"}} className="min-h-screen bg-center bg-no-repeat">
+            <div style={{backgroundImage: `url(${Bg})`}} className="min-h-screen bg-center bg-no-repeat">
                 <div className="custom-container pt-15">
                     <div className="flex items-center justify-between">
                         <div>
