@@ -6,7 +6,7 @@ function Header() {
             <div className="custom-container my-25 flex relative">
                 <div className="flex flex-col">
                     <div className="flex items-center relative">
-                        <img src="/src/assets/home/small.png" alt="" className="absolute cursor-pointer bg-[#FF3F3A]/30 rounded-full m-4 hover:p-4 hover:m-0 transition-all delay-100" />
+                        <img src="./src/assets/home/small.png" alt="" className="absolute cursor-pointer bg-[#FF3F3A]/30 rounded-full m-4 hover:p-4 hover:m-0 transition-all delay-100" />
                         <p className="mx-21 text-[14px] font-[700]">Play showreel</p>
                     </div>
                     <div className="w-[496px] mx-7 my-10">
@@ -20,7 +20,7 @@ function Header() {
                         <Link to="/courses"><button className="cursor-pointer hover:bg-gradient-to-tl transition-all delay-75 bg-gradient-to-br from-[#FF3F3A] to-[#F75E05] rounded py-3 px-10 text-[16px] text-white font-[700]">Explore courses</button></Link>
                     </div>
                 </div>
-                <img src="/src/assets/home/illustration.svg" alt="" className="absolute right-0 -top-5"/>
+                <img src="./src/assets/home/illustration.svg" alt="" className="absolute right-0 -top-5"/>
             </div>
         </header>
     )
