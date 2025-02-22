@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Img1 from "/src/assets/home/small.png"
 
 function Header() {
     return(
@@ -6,7 +7,7 @@ function Header() {
             <div className="custom-container my-25 flex relative">
                 <div className="flex flex-col">
                     <div className="flex items-center relative">
-                        <img src="./src/assets/home/small.png" alt="" className="absolute cursor-pointer bg-[#FF3F3A]/30 rounded-full m-4 hover:p-4 hover:m-0 transition-all delay-100" />
+                        <img src={Img1} alt="" className="absolute cursor-pointer bg-[#FF3F3A]/30 rounded-full m-4 hover:p-4 hover:m-0 transition-all delay-100" />
                         <p className="mx-21 text-[14px] font-[700]">Play showreel</p>
                     </div>
                     <div className="w-[496px] mx-7 my-10">
