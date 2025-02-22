@@ -1,4 +1,4 @@
-
+import Bg from "/src/assets/home/background3.png"
 
 function Events() {
     let events = [
@@ -8,7 +8,7 @@ function Events() {
     ]
     return (
         <section>
-            <div style={{backgroundImage: "url('/src/assets/home/background3.png')",}} className="bg-center bg-cover h-screen bg-no-repeat">
+            <div style={{backgroundImage: `url(${Bg})`,}} className="bg-center bg-cover h-screen bg-no-repeat">
                 <div className="custom-container pt-[133px]">
                     <div className="flex flex-col items-center justify-center mt-10">
                         <h6 className="uppercase text-[16px] font-[400]">Our Events</h6>

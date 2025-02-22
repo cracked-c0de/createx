@@ -1,9 +1,10 @@
 import Img1 from "/src/assets/home/subsillustration.png"
+import Bg from "/src/assets/home/subscribe.png"
 
 function Subscribe() {
     return(
         <section>
-            <div style={{backgroundImage: "url('/src/assets/home/subscribe.png')"}} className="bg-center min-h-[564px] h-full relative">
+            <div style={{backgroundImage: `url(${Bg})`}} className="bg-center min-h-[564px] h-full relative">
                 <div>
                     <img src={Img1} alt="" className="absolute left-0 bottom-0"/>
                     <img src={Img1} alt="" className="absolute right-0 bottom-0"/>
