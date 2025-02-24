@@ -8,6 +8,9 @@ import Logo from "/src/assets/logo2.svg"
 
 
 function Footer() {
+    let top = () => {
+        window.scroll(0, 0)
+    }
     return(
         <footer className="bg-[#1E212C]">
             <section className="pt-15 pb-7">
@@ -67,7 +70,7 @@ function Footer() {
                 <div className="custom-container">
                     <div className="flex justify-between items-center">
                         <p className="flex items-center gap-1 text-white text-[12px] font-[400]">&copy; All rights reserved. Made with <BiHeart className="text-red-600 text-[20px]"/> by Createx Studio</p>
-                        <a href="#" className="text-white/60 uppercase hover:text-white transition-all delay-100 text-[14px] font-[700]">Go To Top</a>
+                        <p onClick={() => top()} className="text-white/60 cursor-pointer uppercase hover:text-white transition-all delay-100 text-[14px] font-[700]">Go To Top</p>
                     </div>
                 </div>
             </div>
