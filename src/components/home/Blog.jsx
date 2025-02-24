@@ -32,7 +32,7 @@ function Blog() {
                                 <h1 className="text-[#1E212C] text-[20px] font-[700]">{key.header}</h1>
                                 <p className="text-[16px] font-[400] text-[#1E212C]">{key.part}</p>
                             </div>
-                            <button className="w-fit my-4 text-[16px] font-[700] text-[#1E212C] flex items-center gap-3 cursor-pointer">{key.btn} <BsArrowRight className="text-[17px] text-[#FF3F3A]"/></button>
+                            <button className="w-fit my-4 text-[16px] font-[700] text-[#1E212C] hover:text-[#FF3F3A] flex items-center gap-3 cursor-pointer">{key.btn} <BsArrowRight className="text-[17px] text-[#FF3F3A]"/></button>
                         </div>
                     ))}
                 </div>
